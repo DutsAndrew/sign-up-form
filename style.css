@@ -1,6 +1,6 @@
 html {
     display: flex;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -12,6 +12,12 @@ body {
     flex-flow: row nowrap;
     padding: 10px;
 }
+
+a {
+    color: white;
+}
+
+/* LEFT SIDE FORM CSS LEFT SIDE FORM CSS LEFT SIDE FORM CSS LEFT SIDE FORM CSS LEFT SIDE FORM CSS LEFT SIDE FORM CSS */
 
 .banner-column {
     display: flex;
@@ -47,11 +53,22 @@ body {
     margin-top: 98vh;
 }
 
+/* RIGHT SIDE FORM CSS RIGHT SIDE FORM CSS RIGHT SIDE FORM CSS RIGHT SIDE FORM CSS RIGHT SIDE FORM CSS RIGHT SIDE FORM CSS */
+
 .form-column {
     display: flex;
     flex-flow: column nowrap;
+    background-color: white;
 }
 
-a {
-    color: white;
+.form-header {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(220, 222, 220);
+    font-size: 28px;
+    letter-spacing: .05rem;
+    line-height: 1.5;
+    padding: 10px;
+    padding-right: 250px;
 }
+
