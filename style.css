@@ -70,5 +70,30 @@ a {
     line-height: 1.5;
     padding: 10px;
     padding-right: 250px;
+    padding-left: 25px;
 }
 
+.form {
+    display: flex;
+    flex-flow: column wrap;
+    padding-right: 250px;
+    padding-left: 25px;
+}
+
+#firstName, #lastName, #email, #phoneNumber, #passwordSignup, #passwordConfirm {
+    font-size: 24px;
+}
+
+.create-account {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-style: bold;
+    width: 250px;
+    height: 35px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(80, 116, 199);
+}
