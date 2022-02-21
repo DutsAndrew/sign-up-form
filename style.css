@@ -62,11 +62,12 @@ a {
 
 .form-header {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
+    flex: auto;
     background-color: rgb(220, 222, 220);
     font-size: 28px;
     letter-spacing: .05rem;
-    line-height: 1.5;
+    line-height: 1.7;
     padding: 10px;
     padding-right: 250px;
     padding-left: 25px;
@@ -86,13 +87,27 @@ a {
 
 .form {
     display: flex;
+    flex-flow: row wrap;
+    /* padding-right: 250px; */
+    padding-left: 25px;
+}
+
+.form-text {
+    display: flex;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.form-left, .form-right {
+    display: flex;
     flex-flow: column wrap;
-    padding-right: 250px;
+    flex: auto;
     padding-left: 25px;
 }
 
 #firstName, #lastName, #email, #phoneNumber, #passwordSignup, #passwordConfirm {
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .create-account {
@@ -107,4 +122,6 @@ a {
     margin-top: 20px;
     color: white;
     background-color: rgb(80, 116, 199);
+    margin-left: 25px;
+    border-radius: 5px;
 }
