@@ -10,6 +10,7 @@ body {
 #form-container {
     display: flex;
     flex-flow: row nowrap;
+    flex: auto;
 }
 
 /* LEFT SIDE FORM CSS LEFT SIDE FORM CSS LEFT SIDE FORM CSS LEFT SIDE FORM CSS LEFT SIDE FORM CSS LEFT SIDE FORM CSS */
@@ -24,16 +25,19 @@ body {
     min-width: 50vh;
     max-width: 100vh;
     height: 100vh;
+    flex: auto;
 }
 
 .logo-container {
     display: flex;
+    flex: auto;
     position: absolute;
     opacity: 75%;
 }
 
 #logo {
     display: flex;
+    flex: auto;
     width: 20vh;
     height: 20vh;
     padding-left: 20px;
@@ -56,6 +60,7 @@ body {
 
 .form-column {
     display: flex;
+    flex: auto;
     flex-flow: column nowrap;
     background-color: white;
 }
@@ -99,7 +104,7 @@ body {
     font-weight: 900;
 }
 
-.form-left, .form-right {
+.form-names, .form-contact-information, .form-passwords {
     display: flex;
     flex-flow: row nowrap;
     flex: auto;
