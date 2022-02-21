@@ -12,11 +12,6 @@ body {
     flex-flow: row nowrap;
 }
 
-a {
-    color: white;
-    opacity: 50%;
-}
-
 /* LEFT SIDE FORM CSS LEFT SIDE FORM CSS LEFT SIDE FORM CSS LEFT SIDE FORM CSS LEFT SIDE FORM CSS LEFT SIDE FORM CSS */
 
 .banner-column {
@@ -50,6 +45,11 @@ a {
     flex-flow: row nowrap;
     position: absolute;
     margin-top: 98vh;
+}
+
+.pc {
+    color: white;
+    opacity: 50%;
 }
 
 /* RIGHT SIDE FORM CSS RIGHT SIDE FORM CSS RIGHT SIDE FORM CSS RIGHT SIDE FORM CSS RIGHT SIDE FORM CSS RIGHT SIDE FORM CSS */
@@ -87,26 +87,31 @@ a {
 
 .form {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     /* padding-right: 250px; */
     padding-left: 25px;
 }
 
 .form-text {
     display: flex;
-    padding-left: 25px;
+    margin-left: 35px;
     font-size: 20px;
     font-weight: 900;
 }
 
 .form-left, .form-right {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row nowrap;
     flex: auto;
     padding-left: 25px;
+    margin: 10px;
+    justify-content: flex-start;
+    gap: 50px;
 }
 
 #firstName, #lastName, #email, #phoneNumber, #passwordSignup, #passwordConfirm {
+    display: flex;
+    flex: auto;
     font-size: 16px;
 }
 
@@ -123,5 +128,21 @@ a {
     color: white;
     background-color: rgb(80, 116, 199);
     margin-left: 25px;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.acount-already {
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.login-link {
+    font-size: 18px;
+}
+
+.fine-print {
+    margin-left: 25px;
+    font-size: 10px;
 }
