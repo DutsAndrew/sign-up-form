@@ -71,6 +71,7 @@ body {
     flex-flow: column nowrap;
     flex: auto;
     background-color: rgb(220, 222, 220);
+    opacity: 80%;
     font-size: 28px;
     letter-spacing: .05rem;
     line-height: 1.7;
@@ -80,11 +81,13 @@ body {
 }
 
 #text1 {
+    color: rgb(74, 72, 65);
     margin-bottom: 0;
     padding-left: 25px;
 }
 
 #text2 {
+    color: rgb(74, 72, 65);
     margin: 0;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -130,6 +133,14 @@ body {
     border: 2px solid #E5E7EB;
 }
 
+.form-footer {
+    display: flex;
+    flex: auto;
+    flex-flow: column wrap;
+    background-color: rgb(89, 110, 143);
+    opacity: 70%;
+}
+
 .create-account {
     display: flex;
     flex-flow: row nowrap;
@@ -148,18 +159,20 @@ body {
 
 .acount-already {
     font-size: 18px;
-    color: black;
+    color: white;
     font-weight: 500;
     margin-left: 35px;
 }
 
 .login-link {
     font-size: 18px;
+    color: rgb(184, 134, 83);
 }
 
 .fine-print {
     margin-left: 25px;
     font-size: 10px;
+    color: white;
 }
 
 /* .focus {
